@@ -67,6 +67,26 @@
     tasks takes  1473  ms
   */
   
+/*
+  JSON tasks style
+*/
+
+  start_time = new Date();
+  async.series({'step1':task1,'step2':task2, 'step3':task3},function(err,data){
+
+    console.log("the data is ", data);
+    console.log("error is ", err);
+    console.log("tasks takes ",new Date() - start_time," ms");
+  });
+
+
+
+
+
+
+
+
+
   start_time = new Date();
   async.series([task1,task2,error_task],function(err,data){
 
@@ -106,4 +126,7 @@
   the data is  [ 'task1 is really long func', undefined ]
   tasks takes  1259  ms
 */
+
+
+
 })();
