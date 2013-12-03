@@ -29,8 +29,8 @@ module.exports ={
   error_task : function(cb){
     console.log("error task start");
     setTimeout(function(){
-      console.log("error task finished");
+      console.log("error task finished","error data");
       cb("shit happens");
-    }, 200);
+    }, 500);
   }
 };
