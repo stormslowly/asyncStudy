@@ -1,0 +1,15 @@
+{
+  "name": "async_study",
+  "version": "0.0.0",
+  "description": "my study of asyn lib",
+  "main": "main.js",
+
+  "dependencies": {
+    "aysnc": "0.2.9"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "supershell",
+  "license": "BSD-2-Clause"
+}
