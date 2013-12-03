@@ -9,8 +9,9 @@ var tasks =[{name:"wsy",lazy:200},
         {name:"wxx",lazy:300},
         {name:"spf",lazy:100}];
 
-
+console.log("async.forEach === async.each  => ",async.forEach === async.each)
 // all goes right
+var start =  new Date()
 async.forEach(tasks, 
   function(task,cb){
     console.log("1 do the task for ",task.name);
@@ -22,6 +23,7 @@ async.forEach(tasks,
   },
   function(err,who){
     console.log("1 error is ",err,"from ",who);
+    console.log("time comsuing ",new Date() - start );
   });
 /*
 do the task for  wsy
