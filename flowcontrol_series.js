@@ -33,7 +33,7 @@
     setTimeout(function(){
       console.log("task2 finished");
       cb(null,"i love sunshine ");
-    }, 200);
+    }, 300);
   };
 
   var error_task = function(cb){

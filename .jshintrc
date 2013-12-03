@@ -3,6 +3,10 @@
  		"require":false, 
  		"console":false , 
  		"setTimeout":false
-	}
+	},
+
+	"unused":true,
+	"curly":true
+
 
 }
