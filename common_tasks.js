@@ -1,8 +1,9 @@
 
 
 module.exports ={
-	
+    
   task1:function(cb){
+    "use strict";
     console.log("task1 start");
     setTimeout(function(){
       console.log("task1 finished");
@@ -11,6 +12,7 @@ module.exports ={
   },
 
   task2 :function(cb){
+    "use strict";
     console.log("task2 start");
     setTimeout(function(){
       console.log("task2 finished");
@@ -19,6 +21,7 @@ module.exports ={
   },
 
   task3 : function(cb){
+    "use strict";
     console.log("task3 start");
     setTimeout(function(){
       console.log("task3 finished");
@@ -27,6 +30,7 @@ module.exports ={
   },
 
   error_task : function(cb){
+    "use strict";
     console.log("error task start");
     setTimeout(function(){
       console.log("error task finished","error data");
